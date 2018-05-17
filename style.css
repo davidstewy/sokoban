@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.wall {
+    background: rebeccapurple;
+}
+
+.empty {
+    background: white;
+    
+}
+
+.start {
+    background: green;
+    
+}
+
+.emptyStorage {
+    background: red;
+    
+}
+
+#player {
+    background-color: black;
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+}
